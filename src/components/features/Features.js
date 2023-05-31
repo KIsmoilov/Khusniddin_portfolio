@@ -41,12 +41,6 @@ const Features = () => (
           hic consequuntur eum repellendus ad."
         icon={<SiAntdesign />}
       />
-      <Card
-        title="Hosting Websites"
-        des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
-        icon={<FaGlobe />}
-      />
     </div>
   </section>
 );
