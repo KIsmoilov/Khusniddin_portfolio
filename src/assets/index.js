@@ -5,9 +5,7 @@ import hpChar from './images/projects/HP_Char.png';
 import math from './images/projects/Math.png';
 import space from './images/projects/Space.jpeg';
 import foodApp from './images/projects/foodApp.png';
-import memorySummit from './images/projects/leaderboard.png';
-import projectTwo from './images/projects/projectTwo.jpg';
-import projectThree from './images/projects/projectThree.jpeg';
+import leaderboard from './images/projects/leaderboard.png';
 import testimonialOne from './images/testmonial/testimonialOne.png';
 import testimonialTwo from './images/testmonial/testimonialTwo.png';
 import quote from './images/testmonial/quote.png';
@@ -21,9 +19,7 @@ export {
   math,
   space,
   foodApp,
-  memorySummit,
-  projectTwo,
-  projectThree,
+  leaderboard,
   testimonialOne,
   testimonialTwo,
   quote,

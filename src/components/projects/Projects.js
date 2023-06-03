@@ -1,7 +1,7 @@
 import React from 'react';
 import Title from '../layouts/Title';
 import {
-  carRental, hpChar, math, projectThree, space, foodApp, memorySummit,
+  carRental, hpChar, math, space, foodApp, leaderboard,
 } from '../../assets/index';
 import ProjectsCard from './ProjectsCard';
 
@@ -22,36 +22,48 @@ const Projects = () => (
         des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
         src={carRental}
+        githubLink="https://github.com/wassimchakib/Car-Rental-Front-End"
+        demoLink="https://car-rental-front-end.vercel.app/"
       />
       <ProjectsCard
-        title="E-commerce Website"
-        des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-        src={hpChar}
-      />
-      <ProjectsCard
-        title="Chatting App"
-        des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-        src={math}
-      />
-      <ProjectsCard
-        title="SOCIAL MEDIA CLONE"
+        title="Space Traveler`s Hub"
         des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
         src={space}
+        githubLink="https://github.com/KIsmoilov/Space-Traveler-s-Hub"
+        demoLink="https://space-travelers-hub-astn.onrender.com/"
       />
       <ProjectsCard
-        title="E-commerce Website"
+        title="Harry Potter Characters"
+        des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+        src={hpChar}
+        githubLink="https://github.com/KIsmoilov/React-Capstone_Harry-Potter-Characters"
+        demoLink="https://hp-characters-qmdj.onrender.com/"
+      />
+      <ProjectsCard
+        title="Leaderboard App"
+        des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+        src={leaderboard}
+        githubLink="https://github.com/KIsmoilov/Leaderboard"
+        demoLink="https://kismoilov.github.io/Leaderboard/"
+      />
+      <ProjectsCard
+        title="Food App"
         des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
         src={foodApp}
+        githubLink="https://github.com/KIsmoilov/JS-Capstone-Project"
+        demoLink="https://kismoilov.github.io/JS-Capstone-Project/"
       />
       <ProjectsCard
-        title="Chatting App"
+        title="Math Magicians"
         des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-        src={memorySummit}
+        src={math}
+        githubLink="https://github.com/KIsmoilov/math-magicians"
+        demoLink="https://calculator-by-math-magicians.onrender.com/"
       />
     </div>
   </section>
