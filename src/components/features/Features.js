@@ -12,18 +12,18 @@ const Features = () => (
     <Title title="Features" des="What I Do" />
     <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20">
       <Card
-        title="Business Stratagy"
+        title="Front-end Development"
         des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
           hic consequuntur eum repellendus ad."
       />
       <Card
-        title="App Development"
+        title="Back-end Development"
         des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
           hic consequuntur eum repellendus ad."
         icon={<AiFillAppstore />}
       />
       <Card
-        title="SEO Optimisation"
+        title="Test Driven Development"
         des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
           hic consequuntur eum repellendus ad."
         icon={<SiProgress />}
