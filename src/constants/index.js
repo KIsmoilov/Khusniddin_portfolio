@@ -1,4 +1,4 @@
-export const navLinksdata = [
+export default [
   {
     _id: 1001,
     title: 'Home',
