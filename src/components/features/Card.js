@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { HiArrowRight } from 'react-icons/hi';
 
 const Card = ({ title, des, icon }) => (
@@ -31,5 +32,11 @@ const Card = ({ title, des, icon }) => (
     </div>
   </div>
 );
+
+Card.propTypes = {
+  title: PropTypes.string.isRequired,
+  des: PropTypes.string.isRequired,
+  icon: PropTypes.string.isRequired,
+};
 
 export default Card;

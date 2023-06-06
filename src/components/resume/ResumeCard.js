@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const ResumeCard = ({
   title, subTitle, result, des,
@@ -31,5 +32,12 @@ const ResumeCard = ({
     </div>
   </div>
 );
+
+ResumeCard.propTypes = {
+  title: PropTypes.string.isRequired,
+  subTitle: PropTypes.string.isRequired,
+  des: PropTypes.string.isRequired,
+  result: PropTypes.string.isRequired,
+};
 
 export default ResumeCard;
