@@ -98,7 +98,7 @@ const Testimonial = () => {
       className="w-full py-20 border-b-[1px] border-b-black"
     >
       <div className="flex justify-center items-center text-center">
-        <Title title="WHAT CLIENTS SAY" des="Testimonial" />
+        <Title title="WHAT OTHERS SAY" des="Testimonial" />
       </div>
       <div className="max-w-6xl mx-auto">
         {/* ================ Slider One ================== */}
@@ -126,7 +126,7 @@ const Testimonial = () => {
                 <div className="w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg shadow-shadowOne p-4 lgl:p-8 flex flex-col justify-center gap-4 lgl:gap-8">
                   <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                     <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                      Space Traveler`s Hub
+                      Built Space Traveler`s Hub App
                     </h3>
                   </div>
                   <p className="text-base font-titleFont text-gray-400 font-small tracking-wide leading-6">
@@ -162,7 +162,7 @@ const Testimonial = () => {
                   </p>
                   <h3 className="text-2xl font-bold">Mert Kaya</h3>
                   <p className="text-base tracking-wide mt-2 text-gray-500">
-                    Full-Stack Web Developer
+                    Full-Stack Blockchain Developer
                   </p>
                 </div>
               </div>
@@ -171,7 +171,7 @@ const Testimonial = () => {
                 <div className="w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg shadow-shadowOne p-4 lgl:p-8 flex flex-col justify-center gap-4 lgl:gap-8">
                   <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                     <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                      Space Traveler`s Hub
+                      Worked in Pair-Programming Sessions
                     </h3>
                   </div>
                   <p className="text-base font-titleFont text-gray-400 font-small tracking-wide leading-6">
@@ -215,7 +215,7 @@ const Testimonial = () => {
                 <div className="w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg shadow-shadowOne p-4 lgl:p-8 flex flex-col justify-center gap-4 lgl:gap-8">
                   <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                     <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                      Space Traveler`s Hub
+                      Solved Coding Challenges Together
                     </h3>
                   </div>
                   <p className="text-base font-titleFont text-gray-400 font-small tracking-wide leading-6">
