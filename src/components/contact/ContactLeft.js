@@ -15,8 +15,7 @@ const ContactLeft = () => (
         Full-Stack Developer
       </p>
       <p className="text-base text-gray-400 tracking-wide">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
-        ipsam autem cumque, accusantium dicta odio.
+        In love with pair-programming and remote work. Open to new opportunities.
       </p>
       <p className="text-base text-gray-400 flex items-center gap-2">
         Phone:
@@ -30,7 +29,7 @@ const ContactLeft = () => (
       </p>
     </div>
     <div className="flex flex-col gap-4">
-      <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
+      <h2 className="text-base uppercase font-titleFont mb-6">Find me in</h2>
       <div className="flex gap-4">
         <span className="bannerIcon">
           <a
