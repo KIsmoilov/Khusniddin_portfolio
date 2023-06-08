@@ -4,10 +4,11 @@
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 import React, { useState } from 'react';
 import Slider from 'react-slick';
-import { RiStarFill } from 'react-icons/ri';
 import { HiArrowRight, HiArrowLeft } from 'react-icons/hi';
 import Title from '../layouts/Title';
-import { testimonialOne, testimonialTwo, quote } from '../../assets';
+import {
+  testimonialOne, testimonialTwo, testimonialThree, quote,
+} from '../../assets';
 
 function SampleNextArrow(props) {
   const { onClick } = props;
@@ -97,7 +98,7 @@ const Testimonial = () => {
       className="w-full py-20 border-b-[1px] border-b-black"
     >
       <div className="flex justify-center items-center text-center">
-        <Title title="WHAT CLIENTS SAY" des="Testimonial" />
+        <Title title="WHAT OTHERS SAY" des="Testimonial" />
       </div>
       <div className="max-w-6xl mx-auto">
         {/* ================ Slider One ================== */}
@@ -112,11 +113,11 @@ const Testimonial = () => {
                 />
                 <div className="w-full flex flex-col justify-end">
                   <p className="text-xs uppercase text-designColor tracking-wide mb-2">
-                    Bound - Trolola
+                    From Nigeria
                   </p>
-                  <h3 className="text-2xl font-bold">Jone Duone Joe</h3>
-                  <p className="text-base tracking-wide text-gray-500">
-                    Operation Officer
+                  <h3 className="text-2xl font-bold">Valentine Ezekwonna</h3>
+                  <p className="text-base tracking-wide mt-2 text-gray-500">
+                    Full-Stack Web Developer
                   </p>
                 </div>
               </div>
@@ -124,28 +125,22 @@ const Testimonial = () => {
                 <img className="w-20 lgl:w-32" src={quote} alt="quote" />
                 <div className="w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg shadow-shadowOne p-4 lgl:p-8 flex flex-col justify-center gap-4 lgl:gap-8">
                   <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
-                    <div>
-                      <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                        Travel Mobile App Design.
-                      </h3>
-                      <p className="text-base text-gray-400 mt-3">
-                        via Upwork - Mar 4, 2015 - Aug 30, 2021 test
-                      </p>
-                    </div>
-                    <div className="text-yellow-500 flex gap-1">
-                      <RiStarFill />
-                      <RiStarFill />
-                      <RiStarFill />
-                      <RiStarFill />
-                      <RiStarFill />
-                    </div>
+                    <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
+                      Built Space Traveler`s Hub App
+                    </h3>
                   </div>
-                  <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
-                    dolorum, eos natus ipsum numquam veniam officia
-                    necessitatibus ratione quos debitis exercitationem
-                    repudiandae facilis id neque nihil accusantium perspiciatis
-                    repellat? Iste.
+                  <p className="text-base font-titleFont text-gray-400 font-small tracking-wide leading-6">
+                    Khusniddin is an exceptional developer who possesses all
+                    the skills one would want in an excellent software developer.
+                    From HTML, JavaScript, and CSS to React,
+                    he masters the top programming languages.
+                    He has been a great resource for our group projects.
+                    He did an incredible job on all projects,
+                    making timely deliveries and helping me
+                    nurture long-term networking relationships.
+                    His work is always top-notch, and he is always welcoming
+                    to feedback and making improvements. Plus, Khusniddin Ismoilov
+                    is self-motivated and a great team player.
                   </p>
                 </div>
               </div>
@@ -159,15 +154,15 @@ const Testimonial = () => {
                 <img
                   className="h-72 md:h-32 lgl:h-72 rounded-lg object-cover"
                   src={testimonialTwo}
-                  alt="testimonialTwo"
+                  alt="testimonialOne"
                 />
                 <div className="w-full flex flex-col justify-end">
                   <p className="text-xs uppercase text-designColor tracking-wide mb-2">
-                    Bound - Trolola
+                    From Turkey
                   </p>
-                  <h3 className="text-2xl font-bold">Jone Duone Joe</h3>
-                  <p className="text-base tracking-wide text-gray-500">
-                    Operation Officer
+                  <h3 className="text-2xl font-bold">Mert Kaya</h3>
+                  <p className="text-base tracking-wide mt-2 text-gray-500">
+                    Full-Stack Blockchain Developer
                   </p>
                 </div>
               </div>
@@ -175,28 +170,21 @@ const Testimonial = () => {
                 <img className="w-20 lgl:w-32" src={quote} alt="quote" />
                 <div className="w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg shadow-shadowOne p-4 lgl:p-8 flex flex-col justify-center gap-4 lgl:gap-8">
                   <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
-                    <div>
-                      <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                        Travel Mobile App Design.
-                      </h3>
-                      <p className="text-base text-gray-400 mt-3">
-                        via Upwork - Mar 4, 2015 - Aug 30, 2021 test
-                      </p>
-                    </div>
-                    <div className="text-yellow-500 flex gap-1">
-                      <RiStarFill />
-                      <RiStarFill />
-                      <RiStarFill />
-                      <RiStarFill />
-                      <RiStarFill />
-                    </div>
+                    <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
+                      Worked in Pair-Programming Sessions
+                    </h3>
                   </div>
-                  <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
-                    dolorum, eos natus ipsum numquam veniam officia
-                    necessitatibus ratione quos debitis exercitationem
-                    repudiandae facilis id neque nihil accusantium perspiciatis
-                    repellat? Iste.
+                  <p className="text-base font-titleFont text-gray-400 font-small tracking-wide leading-6">
+                    Khusniddin is an intelligent developer who
+                    effortlessly solves web development challenges.
+                    Through our collaboration on numerous projects,
+                    I have observed his remarkable skills and unwavering
+                    dedication as a coding partner. His proficiency in
+                    JavaScript, Ruby, and Redux has significantly benefited our
+                    team, enabling us to consistently complete projects ahead of
+                    schedule. I am impressed by his punctuality, reliability, and
+                    overall pleasant demeanor. I enthusiastically endorse him for
+                    anyone seeking assistance with their team or web development project.
                   </p>
                 </div>
               </div>
@@ -209,16 +197,16 @@ const Testimonial = () => {
               <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center">
                 <img
                   className="h-72 md:h-32 lgl:h-72 rounded-lg object-cover"
-                  src={testimonialOne}
+                  src={testimonialThree}
                   alt="testimonialOne"
                 />
                 <div className="w-full flex flex-col justify-end">
                   <p className="text-xs uppercase text-designColor tracking-wide mb-2">
-                    Bound - Trolola
+                    From Myanmar
                   </p>
-                  <h3 className="text-2xl font-bold">Jone Duone Joe</h3>
-                  <p className="text-base tracking-wide text-gray-500">
-                    Operation Officer
+                  <h3 className="text-2xl font-bold">Hein Tay Zar</h3>
+                  <p className="text-base tracking-wide mt-2 text-gray-500">
+                    Full-Stack Web Developer
                   </p>
                 </div>
               </div>
@@ -226,28 +214,22 @@ const Testimonial = () => {
                 <img className="w-20 lgl:w-32" src={quote} alt="quote" />
                 <div className="w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg shadow-shadowOne p-4 lgl:p-8 flex flex-col justify-center gap-4 lgl:gap-8">
                   <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
-                    <div>
-                      <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                        Travel Mobile App Design.
-                      </h3>
-                      <p className="text-base text-gray-400 mt-3">
-                        via Upwork - Mar 4, 2015 - Aug 30, 2021 test
-                      </p>
-                    </div>
-                    <div className="text-yellow-500 flex gap-1">
-                      <RiStarFill />
-                      <RiStarFill />
-                      <RiStarFill />
-                      <RiStarFill />
-                      <RiStarFill />
-                    </div>
+                    <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
+                      Solved Coding Challenges Together
+                    </h3>
                   </div>
-                  <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
-                    dolorum, eos natus ipsum numquam veniam officia
-                    necessitatibus ratione quos debitis exercitationem
-                    repudiandae facilis id neque nihil accusantium perspiciatis
-                    repellat? Iste.
+                  <p className="text-base font-titleFont text-gray-400 font-small tracking-wide leading-6">
+                    Khusniddin is a highly skilled professional who excels
+                    in effective communication. His professionalism is truly
+                    inspiring, and he consistently provides valuable support
+                    in various ways. Working together on an app development project,
+                    Khusniddin proved to be an exceptional team player, contributing
+                    significantly to its success.
+                    He actively participates in all meetings, contributing ideas,
+                    writing code, and managing the app. He is a thorough and well-mannered
+                    individual, consistently communicating in a polite and respectful manner.
+                    If you are seeking to have the absolute best team players on your team,
+                    he would undoubtedly be an exceptional fit.
                   </p>
                 </div>
               </div>
