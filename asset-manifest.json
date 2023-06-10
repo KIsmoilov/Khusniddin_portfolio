@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/my_portfolio/static/css/main.e42b1469.css",
-    "main.js": "/my_portfolio/static/js/main.4792cb01.js",
-    "static/media/bannerImg.png": "/my_portfolio/static/media/bannerImg.e78b4719765f5c9920d4.png",
-    "static/media/carRental.png": "/my_portfolio/static/media/carRental.488c99559d21d2723f8d.png",
-    "static/media/leaderboard.png": "/my_portfolio/static/media/leaderboard.fa6b190fe07d6dd41c6b.png",
-    "static/media/foodApp.png": "/my_portfolio/static/media/foodApp.638876459b2aaa759465.png",
-    "static/media/HP_Char.png": "/my_portfolio/static/media/HP_Char.2331021937fd35063c02.png",
-    "static/media/Math.png": "/my_portfolio/static/media/Math.636f31c5425b41f9f152.png",
-    "static/media/Space.jpeg": "/my_portfolio/static/media/Space.305de438d64fc26218ee.jpeg",
-    "static/media/testimonialOne.png": "/my_portfolio/static/media/testimonialOne.9fac16a3117eb6e1e7df.png",
-    "static/media/contactImg.png": "/my_portfolio/static/media/contactImg.b18e53ff123744913a20.png",
-    "static/media/testimonialTwo.png": "/my_portfolio/static/media/testimonialTwo.ad2a4c5ad79946268da7.png",
-    "static/media/testimonialThree.png": "/my_portfolio/static/media/testimonialThree.90d3cd869359cfb7c408.png",
-    "index.html": "/my_portfolio/index.html",
-    "main.e42b1469.css.map": "/my_portfolio/static/css/main.e42b1469.css.map",
-    "main.4792cb01.js.map": "/my_portfolio/static/js/main.4792cb01.js.map"
+    "main.css": "/Khusniddin_portfolio/static/css/main.e42b1469.css",
+    "main.js": "/Khusniddin_portfolio/static/js/main.998ffa47.js",
+    "static/media/bannerImg.png": "/Khusniddin_portfolio/static/media/bannerImg.e78b4719765f5c9920d4.png",
+    "static/media/carRental.png": "/Khusniddin_portfolio/static/media/carRental.488c99559d21d2723f8d.png",
+    "static/media/leaderboard.png": "/Khusniddin_portfolio/static/media/leaderboard.fa6b190fe07d6dd41c6b.png",
+    "static/media/foodApp.png": "/Khusniddin_portfolio/static/media/foodApp.638876459b2aaa759465.png",
+    "static/media/HP_Char.png": "/Khusniddin_portfolio/static/media/HP_Char.2331021937fd35063c02.png",
+    "static/media/Math.png": "/Khusniddin_portfolio/static/media/Math.636f31c5425b41f9f152.png",
+    "static/media/Space.jpeg": "/Khusniddin_portfolio/static/media/Space.305de438d64fc26218ee.jpeg",
+    "static/media/testimonialOne.png": "/Khusniddin_portfolio/static/media/testimonialOne.9fac16a3117eb6e1e7df.png",
+    "static/media/contactImg.png": "/Khusniddin_portfolio/static/media/contactImg.b18e53ff123744913a20.png",
+    "static/media/testimonialTwo.png": "/Khusniddin_portfolio/static/media/testimonialTwo.ad2a4c5ad79946268da7.png",
+    "static/media/testimonialThree.png": "/Khusniddin_portfolio/static/media/testimonialThree.90d3cd869359cfb7c408.png",
+    "index.html": "/Khusniddin_portfolio/index.html",
+    "main.e42b1469.css.map": "/Khusniddin_portfolio/static/css/main.e42b1469.css.map",
+    "main.998ffa47.js.map": "/Khusniddin_portfolio/static/js/main.998ffa47.js.map"
   },
   "entrypoints": [
     "static/css/main.e42b1469.css",
-    "static/js/main.4792cb01.js"
+    "static/js/main.998ffa47.js"
   ]
 }
