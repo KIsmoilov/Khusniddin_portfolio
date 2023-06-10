@@ -5,7 +5,6 @@ import Features from './components/features/Features';
 import FooterBottom from './components/footer/FooterBottom';
 import Navbar from './components/navbar/Navbar';
 import Projects from './components/projects/Projects';
-import Resume from './components/resume/Resume';
 import Testimonial from './components/tesimonial/Testimonial';
 
 function App() {
@@ -16,7 +15,6 @@ function App() {
         <Banner />
         <Features />
         <Projects />
-        <Resume />
         <Testimonial />
         <Contact />
         <FooterBottom />
