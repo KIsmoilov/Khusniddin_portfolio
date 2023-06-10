@@ -1,8 +1,21 @@
 import React from 'react';
+import {
+  SiJavascript, SiCss3, SiHtml5,
+  SiRedux,
+  SiRubyonrails,
+  SiRuby,
+  SiPostgresql,
+  SiMysql,
+  SiGit,
+  SiGithub,
+  SiJest,
+  SiJquery,
+  SiBootstrap,
+  SiNodedotjs,
+} from 'react-icons/si';
+import { FaReact } from 'react-icons/fa';
 import { AiFillAppstore } from 'react-icons/ai';
-import { SiProgress } from 'react-icons/si';
 import Title from '../layouts/Title';
-import Card from './Card';
 
 const Features = () => (
   <section
@@ -11,23 +24,105 @@ const Features = () => (
   >
     <Title title="Features" des="What I Do" />
     <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20">
-      <Card
-        title="Front-end Development"
-        des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
-      />
-      <Card
-        title="Back-end Development"
-        des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
-        icon={<AiFillAppstore />}
-      />
-      <Card
-        title="Test Driven Development"
-        des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
-        icon={<SiProgress />}
-      />
+      <div className="w-full px-12 h-120 py-5 rounded-lg shadow-shadowOne flex items-center bg-gradient-to-r from-bodyColor to-[#202327] group hover:bg-gradient-to-b hover:from-black hover:to-[#1e2024] transition-colors duration-100 group">
+        <div className="h-90 overflow-y-hidden">
+          <div className="flex h-full flex-col gap-10 translate-y-16 group-hover:translate-y-0 transition-transform duration-500">
+            <div className="w-10 h-6 flex flex-col justify-between">
+              <span className="text-5xl text-designColor">
+                <AiFillAppstore />
+              </span>
+            </div>
+            <div className="flex flex-col gap-6">
+              <h2 className="text-xl md:text-2xl font-titleFont font-bold text-gray-300">
+                Front-end Development
+              </h2>
+            </div>
+            <div className="flex gap-4 mt-5">
+              <span className="bannerIcon">
+                <SiHtml5 />
+              </span>
+              <span className="bannerIcon">
+                <SiCss3 />
+              </span>
+              <span className="bannerIcon">
+                <SiJavascript />
+              </span>
+              <span className="bannerIcon">
+                <FaReact />
+              </span>
+              <span className="bannerIcon">
+                <SiRedux />
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="w-full px-12 h-120 py-5 rounded-lg shadow-shadowOne flex items-center bg-gradient-to-r from-bodyColor to-[#202327] group hover:bg-gradient-to-b hover:from-black hover:to-[#1e2024] transition-colors duration-100 group">
+        <div className="h-90 overflow-y-hidden">
+          <div className="flex h-full flex-col gap-10 translate-y-16 group-hover:translate-y-0 transition-transform duration-500">
+            <div className="w-10 h-6 flex flex-col justify-between">
+              <span className="text-5xl text-designColor">
+                <AiFillAppstore />
+              </span>
+            </div>
+            <div className="flex flex-col gap-6">
+              <h2 className="text-xl md:text-2xl font-titleFont font-bold text-gray-300">
+                Back-end Development
+              </h2>
+            </div>
+            <div className="flex gap-4 mt-5">
+              <span className="bannerIcon">
+                <SiRuby />
+              </span>
+              <span className="bannerIcon">
+                <SiRubyonrails />
+              </span>
+              <span className="bannerIcon">
+                <SiPostgresql />
+              </span>
+              <span className="bannerIcon">
+                <SiMysql />
+              </span>
+              <span className="bannerIcon">
+                <SiNodedotjs />
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="w-full px-12 h-120 py-5 rounded-lg shadow-shadowOne flex items-center bg-gradient-to-r from-bodyColor to-[#202327] group hover:bg-gradient-to-b hover:from-black hover:to-[#1e2024] transition-colors duration-100 group">
+        <div className="h-90 overflow-y-hidden">
+          <div className="flex h-full flex-col gap-10 translate-y-16 group-hover:translate-y-0 transition-transform duration-500">
+            <div className="w-10 h-6 flex flex-col justify-between">
+              <span className="text-5xl text-designColor">
+                <AiFillAppstore />
+              </span>
+            </div>
+            <div className="flex flex-col gap-6">
+              <h2 className="text-xl md:text-2xl font-titleFont font-bold text-gray-300">
+                Tools and Technologies
+              </h2>
+            </div>
+            <div className="flex gap-4 mt-5">
+              <span className="bannerIcon">
+                <SiGit />
+              </span>
+              <span className="bannerIcon">
+                <SiGithub />
+              </span>
+              <span className="bannerIcon">
+                <SiJest />
+              </span>
+              <span className="bannerIcon">
+                <SiBootstrap />
+              </span>
+              <span className="bannerIcon">
+                <SiJquery />
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 );
