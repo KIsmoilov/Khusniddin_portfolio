@@ -31,30 +31,27 @@ const ContactLeft = () => (
     <div className="flex flex-col gap-4">
       <h2 className="text-base uppercase font-titleFont mb-6">Find me in</h2>
       <div className="flex gap-4">
-        <span className="bannerIcon">
-          <a
-            href="https://www.linkedin.com/in/khusniddin-ismoilov/"
-            target="blank"
-          >
-            <FaLinkedinIn />
-          </a>
-        </span>
-        <span className="bannerIcon">
-          <a
-            href="https://twitter.com/Uz_Mnemonist"
-            target="blank"
-          >
-            <FaTwitter />
-          </a>
-        </span>
-        <span className="bannerIcon">
-          <a
-            href="https://wellfound.com/u/khusniddin-ismoilov"
-            target="blank"
-          >
-            <FaAngellist />
-          </a>
-        </span>
+        <a
+          href="https://www.linkedin.com/in/khusniddin-ismoilov/"
+          target="blank"
+          className="bannerIcon"
+        >
+          <FaLinkedinIn />
+        </a>
+        <a
+          href="https://twitter.com/Uz_Mnemonist"
+          target="blank"
+          className="bannerIcon"
+        >
+          <FaTwitter />
+        </a>
+        <a
+          href="https://wellfound.com/u/khusniddin-ismoilov"
+          target="blank"
+          className="bannerIcon"
+        >
+          <FaAngellist />
+        </a>
       </div>
     </div>
   </div>

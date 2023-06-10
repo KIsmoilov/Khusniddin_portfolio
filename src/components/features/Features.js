@@ -124,6 +124,14 @@ const Features = () => (
         </div>
       </div>
     </div>
+    <div className="flex justify-center">
+      <a href="https://docs.google.com/document/d/1IwXLLO4fvZNOSvWIDeYRoJkqy2mqtEjQRLwhXhaMpjw/edit?usp=sharing" target="_blank" className="w-100 mt-20 flex items-center mx-auto" rel="noreferrer">
+        <button type="button" className="w-80 h-12 bg-[#141518] rounded-lg text-base text-gray-400 tracking-wider uppercase hover:text-white duration-300 hover:border-[1px] hover:border-designColor border-transparent">
+          See my Resume
+        </button>
+      </a>
+    </div>
+
   </section>
 );
 
