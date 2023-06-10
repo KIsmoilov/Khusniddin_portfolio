@@ -13,7 +13,7 @@ import {
   SiBootstrap,
   SiNodedotjs,
 } from 'react-icons/si';
-import { FaReact } from 'react-icons/fa';
+import { FaReact, FaDatabase, FaLaptopCode } from 'react-icons/fa';
 import { AiFillAppstore } from 'react-icons/ai';
 import Title from '../layouts/Title';
 
@@ -62,7 +62,7 @@ const Features = () => (
           <div className="flex h-full flex-col gap-10 translate-y-16 group-hover:translate-y-0 transition-transform duration-500">
             <div className="w-10 h-6 flex flex-col justify-between">
               <span className="text-5xl text-designColor">
-                <AiFillAppstore />
+                <FaDatabase />
               </span>
             </div>
             <div className="flex flex-col gap-6">
@@ -95,7 +95,7 @@ const Features = () => (
           <div className="flex h-full flex-col gap-10 translate-y-16 group-hover:translate-y-0 transition-transform duration-500">
             <div className="w-10 h-6 flex flex-col justify-between">
               <span className="text-5xl text-designColor">
-                <AiFillAppstore />
+                <FaLaptopCode />
               </span>
             </div>
             <div className="flex flex-col gap-6">
