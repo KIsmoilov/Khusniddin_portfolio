@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Khusniddin_portfolio/static/css/main.e51704bc.css",
-    "main.js": "/Khusniddin_portfolio/static/js/main.eaed91d8.js",
+    "main.js": "/Khusniddin_portfolio/static/js/main.de6f7964.js",
     "static/media/bannerImg.png": "/Khusniddin_portfolio/static/media/bannerImg.e78b4719765f5c9920d4.png",
     "static/media/carRental.png": "/Khusniddin_portfolio/static/media/carRental.488c99559d21d2723f8d.png",
     "static/media/leaderboard.png": "/Khusniddin_portfolio/static/media/leaderboard.fa6b190fe07d6dd41c6b.png",
@@ -15,10 +15,10 @@
     "static/media/testimonialThree.png": "/Khusniddin_portfolio/static/media/testimonialThree.90d3cd869359cfb7c408.png",
     "index.html": "/Khusniddin_portfolio/index.html",
     "main.e51704bc.css.map": "/Khusniddin_portfolio/static/css/main.e51704bc.css.map",
-    "main.eaed91d8.js.map": "/Khusniddin_portfolio/static/js/main.eaed91d8.js.map"
+    "main.de6f7964.js.map": "/Khusniddin_portfolio/static/js/main.de6f7964.js.map"
   },
   "entrypoints": [
     "static/css/main.e51704bc.css",
-    "static/js/main.eaed91d8.js"
+    "static/js/main.de6f7964.js"
   ]
 }
